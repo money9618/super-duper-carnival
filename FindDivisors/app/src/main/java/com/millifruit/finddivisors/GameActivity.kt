@@ -43,7 +43,7 @@ class GameActivity : AppCompatActivity() {
     var timeFormatFlag = 0//0,1,2 이렇게 돌아가면서 타임포멧표시형식을 변경
     var lastDiVidedCount = 1//현재 몇번쨰 숫자인지 표시. 첫값은 1
     var endNumber = 0//나눠야하는 숫자 개수.
-
+    var byongyong = "223"
     //시계 표시를 위한 선언
     private var timerTask: Timer? = null//timer객체를 가리키는 참조변수
     private var milliSecondsValue = 0//0.01초마다 오르는 값.
