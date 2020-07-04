@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#00E109"> <!-- Ripple Effect 색상 -->
+
+    <!--mask? 이건 무슨 뜻이지.-->
+    <!--여백의 색을 지정해주는 것이다.-->
+
+    <!-- 배경색 -->
+    <!--내용물의 색상을 지정. 쉐이프도 지정.-->
+    <item android:id="@android:id/background"
+        android:bottom="5dp"
+        android:left="5dp"
+        android:right="5dp"
+        android:top="5dp"
+        >
+        <!--margin 설정-->
+
+        <shape android:shape="rectangle">
+           <!--테두리 안할 거임-->
+           <!-- <stroke-->
+           <!--     android:width="5dp"-->
+           <!--     android:color="#312D2D" />-->
+            <solid android:color="#008706"/>
+
+            <!--사각형 각모서리를 둥글게 함-->
+            <corners android:radius="14dp" />
+
+            <!--필요한지 잘 모르곘는데 일단 둠.-->
+            <padding
+                android:bottom="5dp"
+                android:left="5dp"
+                android:right="5dp"
+                android:top="5dp" />
+
+        </shape>
+    </item>
+
+</ripple>
+

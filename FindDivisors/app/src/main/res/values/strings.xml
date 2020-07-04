@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Find Divisors</string>
+    <string name="number_1_text">1</string>
+    <string name="number_2_text">2</string>
+    <string name="number_3_text">3</string>
+    <string name="number_4_text">4</string>
+    <string name="number_5_text">5</string>
+    <string name="number_6_text">6</string>
+    <string name="number_7_text">7</string>
+    <string name="number_8_text">8</string>
+    <string name="number_9_text">9</string>
+    <string name="number_0_text">0</string>
+    <string name="divide_text">÷</string>
+    <string name="test_google_ad_app_id_text">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="google_ad_app_id_text">ca-app-pub-2412592336203373~3519943695</string>
+    <string name="google_ad_unit_id_text">ca-app-pub-2412592336203373/8549248405</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="db_header">DB</string>
+
+    <!--scoreActivity의 글자.-->
+    <string name="title_activity_score">ScoreActivity</string>
+    <string name="tab_text_1_easy">easy</string>
+    <string name="tab_text_2_medium">medium</string>
+    <string name="tab_text_3_hard">hard</string>
+</resources>
